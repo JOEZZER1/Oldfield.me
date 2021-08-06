@@ -3,38 +3,117 @@
 <head>
 <style>
  body{
-  background-color: powderblue;
+  background-color: white;
   }
+ 
   h1 {
   color: blue;
   text-align: center;
+  padding-left: 50px;
   }
   p {
   font-family: verdana;
   font-size: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: justify;
   }
   .page-header{
-  min-height:200px;
+  min-height:100px;
   background-color: blue;
+  text-align: center;
+  color: white;
   }
-  .page-header li a{
-  color:white;
+  ul {
+    text-align: right;
+    padding-right: 20px;
   }
+  ul li {
+    list-style: none;
+    display: inline-block;
+
+  }
+  ul li a{
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: right;
+  
+  }
+
   .page-mainbody{
   min-height:400px;
-  background-color: grey;
+  background-color:  #E5E5E5;
   }
   .page-footer{
   min-height:200px;
   background-color: blue;
   }
+
+  {
+    margin: 0;
+    padding: 0;
+  }
+   {
+    background-color: #efefef;
+    font-family: sans-serif;
+  }
+   .contact-box
+  {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+  }
+   form
+   
+  {
+     margin: 35px ;
+   }
+     .input-field
+  {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+.textarea-field
+    {
+      height: 150px;
+      padding: 10px;
+    
+    }
+  
+  .btn
+  {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+ 
   </style>
   
-<title> Contact </title>
+  
+<title> Blog </title>
+<link rel="stylesheet" type="text/css">
 </head>
+<div class="page-header"><p style="text-align:center"><font size="10"> Joezzer Oldfield </p> </div>
 
-<body>
-<div class="page-header">
+
 <ul>
 <li><a href="Index.html">Home</a></li>
 <li><a href="About.html">About</a></li>
@@ -43,11 +122,23 @@
 <li><a href="Photo.html">Photo</a></li>
 <li><a href="Blog.html">Blog </a></li>
 </div>
-<div class="page-mainbody">
-<h1> CONTACT </h1>
 
+
+  <h1 style="text-align:left;"><font size="10"> CONTACT </h1>
+  <div class="links" style="text-align: left;"></div>
+  <div class="contact-box">
+  <form>
+    <input type="text" class="input-field" placeholder="Your name">
+     <input type="text" class="input-field" placeholder="Your Email">
+      <input type="text" class="input-field" placeholder="Your Mobile Number">
+    <textarea type="text" class="input-field" placeholder="Your Message"></textarea>
+       
+       <button type="button" class="btn">Send Message</button>
+</form>
 </div>
-<div class="page-footer">
+<br><br>
+
+<div class="page-footer"><P style="text-align:center"><font size="3"><br><br> Copyright © 2021 Joezzer Oldfield </p>
 
 </div>
   </body>
