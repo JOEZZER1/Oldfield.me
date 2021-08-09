@@ -46,21 +46,37 @@
   background-color:  #E5E5E5;
   }
   .page-footer{
-  min-height:200px;
+  min-height:100px;
   background-color: blue;
   }
   div.box {
   text-align: center;
   }
+   .column {
+            width: 30%;
+            height: 30%;
+            padding-right: 20px;
+            padding-left:22px ;
+            display: inline-block;
+            align-items: center;
+        }
+        /* Clear floats after image containers */
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
  
   </style>
   
 <title> Blog </title>
 </head>
-
-<body>"
-<div class="page-header"><p style="text-align:center"><font size="10"> Joezzer Oldfield </p> </div>
-
+<div class="page-header">
+        <p style="text-align:center">
+            <font size="10"> Joezzer Oldfield </p>
+    </div>
+<body>
 <div class="links" style="text-align: left;">
 <ul>
 <li><a href="Index.html">Home</a></li>
@@ -72,11 +88,41 @@
 </div>
 
 <div class="page-mainbody">
-<h1> PHOTO </h1>
-
+<h1 style="text-align:left;"><h1 style="text-align:center;"><font size="10">PHOTO </h1>
+ <div class="page-mainbody">
+       
+        <div class="row">
+            <div class="column">
+                <img src="./images/1.jpg" alt="Snow" style="height: 650px;width:100%" >
+            </div>
+            <div class="column">
+                <img src="./images/2.jpg" alt="Forest" style="height: 650px;width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/3.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/7.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/8.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/9.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/10.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./images/11.jpg" alt="Mountains" style="width:100%">     
+            </div>
+             <div class="column">
+                <img src="./images/12.jpg" alt="Mountains" style="width:100%">
+                
+            </div>
 </div>
-<div class="page-footer"><P style="text-align:center"><font size="3" font color="white"><br><br> Copyright © 2021 Joezzer Oldfield </p>
 
-</div>>
   </body>
+  <div class="page-footer"><P style="text-align:center"><font size="3" font color="white"> Copyright © 2021 Joezzer Oldfield </p>
+</div>
 </html>
